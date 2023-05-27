@@ -20,6 +20,8 @@ public class Main
         animalList.add(3, "Snake");
         animalList.remove(animalList.indexOf("Frog"));
         System.out.println(animalList.get(1) + animalList.get(2) + animalList.get(4));
+        System.out.println(animalList.size());
+        Freedom.loop();
         // display elements
         System.out.println(animalList);
     }
